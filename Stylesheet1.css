@@ -67,12 +67,11 @@ P {
 h4 {
 	font-size: 15px;
 	color: white;
-	text-align:center;
 	position: fixed;
 	height: 40px; 
     position: fixed; 
     bottom:0%;
-    width:100%; 
+    width:auto; 
     background-color: transparent; 
     
 	
