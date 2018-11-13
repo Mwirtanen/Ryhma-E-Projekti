@@ -59,8 +59,10 @@ h3 {
     text-align: center
 }
 P {
-    font-size: 30px; 
-    text-align: center
+    font-size: 20px; 
+    text-align: center;
+    padding-right: 80px;
+    padding-left: 80px;
 
     
 }
@@ -68,9 +70,9 @@ h4 {
 	font-size: 12px;
 	color: white;
 	position: fixed;
-	height: 15px; 
+	height: 12px; 
     bottom:0%;
-    width:auto; 
+    width: auto; 
     background-color: transparent; 
     
 	
