@@ -79,26 +79,28 @@ h3 {
     font-size: 30px;
     text-align: center
 }
-P {
-    font-size: 20px; 
+h5 {
+    font-size: 12px;
     text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
-	color: white;
-
-    
 }
-h4 {
-	font-size: 12px;
-	color: white;
-	position: fixed;
-	height: 25px; 
-    bottom:0%;
-    width: auto; 
-    background-color: transparent; 
-    
-	
 
+
+P {
+font-size: 20px;
+text-align: center;
+padding-right: 80px;
+padding-left: 80px;
+color: white
+}
+
+
+h4 {
+font-size: 12px;
+position: fixed;
+color: white;
+height: 25px;
+bottom:0%;
+width: auto;
 }
 
 	
