@@ -1,63 +1,76 @@
-{
-    font-family: arial;
 
+* {
+    font-family: arial;
+	
   }
 
 body {
-    width: 100%;
+    width: auto;
     height: 1080px;
-    background-image: url("taustakuva.jpg");
+    background-image: url("taustakuva.jpg"); 
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center;   
 }
 
-div {
-		display: block;
-		opacity: 0.2;
-		width: 850px;
-		height: 50%;
-		margin-left: auto;
-		margin-right: auto;
-		padding: 15px;
-		backround-color: grey;
-}
+
+
+div.first{
+background-color: rgba(0,0,0,0.6);
+width: 70%;
+height: 60%;
+margin-left:auto;
+margin-right:auto;
+padding: 10px; }
+
+div.second{
+background-color: rgba(0,0,0,0.6);
+width:50%;
+height: 35px;
+margin-left:auto;
+margin-right:auto;
+padding: 10px; }
+
+
+
+
+	
 
 ul {
     list-style-type: none;
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background-color: gray;
-	opacity: 0.7;
-	overflow: hidden;
+	background-color: transparent;
+	overflow: hidden;	
 }
 
 li {
 	display: inline-block;
-
 }
 
 li a {
 	 color: #000;
 	 font-size: 40px;
 	 padding: 20px;
-	 text-decoration: none;
+	 text-decoration: none;	 
 }
 
 li a.active {
-     background-color: transparent;
+     background-color: #100F0F;
 	 color: white;
 }
 
 li a:hover:not(.active) {
-     background-color: transparent;
+     background-color: #100F0F;
      color: white;
 }
 
 h1 {
     font-size: 60px;
     text-align: center}
+	
+	
 h2 {
     font-size: 30px;
     text-align: center
@@ -66,25 +79,26 @@ h3 {
     font-size: 30px;
     text-align: center
 }
-h5 {
-		font-size: 12px;
-		text-align: center;
-}
-
-
 P {
-    font-size: 20px;
+    font-size: 20px; 
     text-align: center;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+	color: white;
+
+    
 }
-
-
 h4 {
 	font-size: 12px;
-	position: fixed;
 	color: white;
-	height: 25px;
+	position: fixed;
+	height: 25px; 
     bottom:0%;
-    width: auto;
+    width: auto; 
+    background-color: transparent; 
+    
+	
+
 }
+
+	
