@@ -85,6 +85,12 @@ h5 {
     color: white
 }
 
+h6 {
+    font-size: 20px;
+    text-align: center;
+    color: white
+}
+ 
 
 P {
 font-size: 20px;
@@ -94,6 +100,10 @@ padding-left: 80px;
 color: white
 }
 
+form { 
+    margin: 0 auto; 
+    width:708px;
+    }
 
 h4 {
 font-size: 12px;
