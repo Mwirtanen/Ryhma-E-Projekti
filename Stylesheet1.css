@@ -110,7 +110,8 @@ form {
 
 h4 {
 font-size: 12px;
-position: fixed;
+position: left;
+text-align: center;
 color: white;
 height: 15px;
 bottom:0%;
