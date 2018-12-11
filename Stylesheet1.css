@@ -103,6 +103,8 @@ color: white
 form { 
     margin: 0 auto; 
     width:auto;
+	padding-left: 35%;
+	padding-right: 35%;
     }
 
 h4 {
