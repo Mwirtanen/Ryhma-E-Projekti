@@ -101,6 +101,7 @@ color: white
 }
 
 form { 
+    display: flex;
     margin: 0 auto; 
     width:auto;
 	padding-left: 35%;
